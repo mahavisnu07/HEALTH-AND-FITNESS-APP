@@ -1,0 +1,30 @@
+:root{
+--primary: #007bff;
+--muted: #6c757d;
+--card: #ffffff;
+--bg: #f5f7fa;
+}
+body,html,#root{height:100%;}
+body{
+margin:0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: var(--bg);
+color:#222;
+}
+.container{width:90%;max-width:1100px;margin:2rem auto;}
+.navbar-custom{background:#fff;border-bottom:1px solid #e6e9ee;padding:12px 0;margin-bottom:20px}
+.navbar-brand{font-weight:700;color:var(--primary)}
+.nav-links{display:flex;gap:14px;align-items:center}
+.btn{cursor:pointer}
+.card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 2px 8px rgba(20,20,30,0.04)}
+.auth-container{display:flex;justify-content:center;align-items:flex-start;padding:30px 0}
+.auth-card{width:380px}
+.auth-card input{width:100%;padding:10px;margin-bottom:10px;border:1px solid #ddd;border-radius:6px}
+.auth-card .btn{width:100%;padding:10px;background:var(--primary);color:#fff;border:none;border-radius:6px}
+.message{margin-top:10px;color:#c0392b}
+.dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.profile-card{display:flex;align-items:center;gap:12px}
+.profile-avatar{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#6cc1ff,#8b6bff);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+.footer{padding:18px;background:#fff;border-top:1px solid #e6e9ee;margin-top:30px;text-align:center}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px;border-bottom:1px solid #eee;text-align:left}
